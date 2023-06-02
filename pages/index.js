@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import { useState } from 'react';
-import Studentregister  from './components/Studentregister';
 import Login from './components/Login';
 
 
