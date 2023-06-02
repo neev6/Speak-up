@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+body,html{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: linear-gradient(to-bottom,grey, white);
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* For Firefox  */
+  
+input[type="number"] {
+    -moz-appearance: textfield;
+}
